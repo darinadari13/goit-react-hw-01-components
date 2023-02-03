@@ -1,0 +1,40 @@
+.statusOnline {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: green;
+  z-index: -1;
+}
+.statusOfline {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: red;
+  z-index: -1;
+}
+
+.item {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-top: 2px solid lightslategray;
+  border-left: 2px solid lightslategray;
+  border-right: 2px solid lightslategray;
+}
+
+.item:last-of-type {
+  border-bottom: 2px solid lightslategray;
+}
+
+.avatar {
+  margin: 10px;
+}
+
+.name {
+  font-size: 18px;
+}

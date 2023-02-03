@@ -1,0 +1,33 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin: 30px;
+  border: 2px solid grey;
+}
+
+.title {
+  text-transform: uppercase;
+  color: grey;
+  text-align: center;
+}
+
+.statList {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  flex: 1;
+}
+
+.item {
+  border-top: 2px solid grey;
+}
+
+.item:not(:last-of-type) {
+  border-right: 2px solid grey;
+}
