@@ -8,7 +8,6 @@ export const FriendList = ({ friends }) => {
       {friends.map(({ avatar, name, isOnline, id }) => (
         <FriendListItem
           key={id}
-          id={id}
           name={name}
           avatar={avatar}
           isOnline={isOnline}
@@ -25,6 +24,6 @@ FriendList.propTypes = {
       name: PropTypes.string.isRequired,
       isOnline: PropTypes.bool.isRequired,
       id: PropTypes.number.isRequired,
-    })
-  ),
+    }).isRequired
+  ).isRequired,
 };
